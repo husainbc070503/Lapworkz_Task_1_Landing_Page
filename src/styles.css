@@ -1,0 +1,32 @@
+.swiper {
+    width: 100%;
+    height: 100%;
+    /* background: #000; */
+}
+
+.swiper-slide {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: #F5841A;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.swiper-button-next.swiper-button-disabled,
+.swiper-button-prev.swiper-button-disabled {
+    opacity: 0;
+}
+
+.swiper-pagination-bullet {
+    background-color: #F5841A;
+}
